@@ -53,7 +53,7 @@ public class dashboard extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(51, 51, 51));
 
         btnDashbord.setBackground(new java.awt.Color(51, 51, 51));
-        btnDashbord.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnDashbord.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         btnDashbord.setForeground(new java.awt.Color(255, 255, 255));
         btnDashbord.setIcon(new javax.swing.ImageIcon(getClass().getResource("/zibrathstudio/gambar/icons8-home-24.png"))); // NOI18N
         btnDashbord.setText("Dashboard");
@@ -70,7 +70,7 @@ public class dashboard extends javax.swing.JFrame {
         });
 
         btnPesananMasuk.setBackground(new java.awt.Color(51, 51, 51));
-        btnPesananMasuk.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnPesananMasuk.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         btnPesananMasuk.setForeground(new java.awt.Color(255, 255, 255));
         btnPesananMasuk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/zibrathstudio/gambar/icons8-profitability-24.png"))); // NOI18N
         btnPesananMasuk.setText("Pesanan Masuk");
@@ -87,7 +87,7 @@ public class dashboard extends javax.swing.JFrame {
         });
 
         btnLaporanKeuangan.setBackground(new java.awt.Color(51, 51, 51));
-        btnLaporanKeuangan.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnLaporanKeuangan.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         btnLaporanKeuangan.setForeground(new java.awt.Color(255, 255, 255));
         btnLaporanKeuangan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/zibrathstudio/gambar/icons8-purchase-order-23.png"))); // NOI18N
         btnLaporanKeuangan.setText("Laporan Keuangan");
@@ -104,7 +104,7 @@ public class dashboard extends javax.swing.JFrame {
         });
 
         btnDataProduk.setBackground(new java.awt.Color(51, 51, 51));
-        btnDataProduk.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnDataProduk.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         btnDataProduk.setForeground(new java.awt.Color(255, 255, 255));
         btnDataProduk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/zibrathstudio/gambar/icons8-product-24.png"))); // NOI18N
         btnDataProduk.setText("Data Produk");
@@ -121,7 +121,7 @@ public class dashboard extends javax.swing.JFrame {
         });
 
         btnAbout.setBackground(new java.awt.Color(51, 51, 51));
-        btnAbout.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnAbout.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         btnAbout.setForeground(new java.awt.Color(255, 255, 255));
         btnAbout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/zibrathstudio/gambar/icons8-about-24 (1).png"))); // NOI18N
         btnAbout.setText("About");
@@ -138,7 +138,7 @@ public class dashboard extends javax.swing.JFrame {
         });
 
         btnLogout.setBackground(new java.awt.Color(51, 51, 51));
-        btnLogout.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnLogout.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         btnLogout.setForeground(new java.awt.Color(255, 255, 255));
         btnLogout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/zibrathstudio/gambar/icons8-log-out-24.png"))); // NOI18N
         btnLogout.setText("Log Out");
@@ -175,8 +175,8 @@ public class dashboard extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(42, 42, 42)
-                .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnDashbord, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(20, 20, 20)
                 .addComponent(btnPesananMasuk, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)

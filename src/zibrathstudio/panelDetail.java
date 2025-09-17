@@ -152,7 +152,7 @@ public void load_tabel_Detail() {
 
         jPanel2.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Detail Pesanan");
 
@@ -190,23 +190,23 @@ public void load_tabel_Detail() {
         });
         jScrollPane1.setViewportView(tbPesanan);
 
-        NoPes.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        NoPes.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         NoPes.setForeground(new java.awt.Color(255, 255, 255));
         NoPes.setText("No Pesanan");
 
-        NamPes.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        NamPes.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         NamPes.setForeground(new java.awt.Color(255, 255, 255));
         NamPes.setText("Nama Pemesan");
 
-        NoWa.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        NoWa.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         NoWa.setForeground(new java.awt.Color(255, 255, 255));
         NoWa.setText("NO WA");
 
-        TgDeadline.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        TgDeadline.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         TgDeadline.setForeground(new java.awt.Color(255, 255, 255));
         TgDeadline.setText("tgl Deadline");
 
-        Total.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        Total.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         Total.setForeground(new java.awt.Color(255, 255, 255));
         Total.setText("TotalHarga");
 
@@ -221,7 +221,7 @@ public void load_tabel_Detail() {
             }
         });
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Status Pemesanan");
 
@@ -270,7 +270,7 @@ public void load_tabel_Detail() {
                     .addComponent(jLabel7))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(cStatus, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(123, Short.MAX_VALUE))
+                .addContainerGap(122, Short.MAX_VALUE))
         );
 
         add(jPanel1);
