@@ -73,7 +73,7 @@
                   <EmptySpace min="-2" pref="450" max="-2" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
-                  <Component id="jButton1" min="-2" pref="195" max="-2" attributes="0"/>
+                  <Component id="btnLogin" min="-2" pref="195" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="531" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -100,7 +100,7 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="tPassword" min="-2" pref="31" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jButton1" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="btnLogin" min="-2" pref="35" max="-2" attributes="0"/>
                   <EmptySpace pref="200" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -133,7 +133,7 @@
         </Component>
         <Component class="javax.swing.JPasswordField" name="tPassword">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="btnLogin">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="66" red="ff" type="rgb"/>
@@ -151,7 +151,7 @@
             <Property name="opaque" type="boolean" value="true"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLoginActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">

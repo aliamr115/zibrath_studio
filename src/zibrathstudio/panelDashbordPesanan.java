@@ -633,8 +633,6 @@ public class panelDashbordPesanan extends javax.swing.JPanel {
             tNoWhatsapp.setEditable(false);
             lbTanggal.setText(tgldeadline);
         }
-            
-
     }//GEN-LAST:event_btnKonfirmasiActionPerformed
 
     private void tNoPesananActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tNoPesananActionPerformed

@@ -10,7 +10,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import javax.swing.JOptionPane;
+import javax.swing.RowFilter;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableRowSorter;
 import static zibrathstudio.dashboard.content;
 
 /**
@@ -18,7 +20,7 @@ import static zibrathstudio.dashboard.content;
  * @author alia
  */
 public class panelPesanan extends javax.swing.JPanel {
-
+   
     /**
      * Creates new form panelPesanan
      */
@@ -51,6 +53,7 @@ public class panelPesanan extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null, "Gagal mengambil data!");
         }
        tbPesanan.setModel(model);
+       
     }
     /**
      * This method is called from within the constructor to initialize the form.
@@ -65,7 +68,6 @@ public class panelPesanan extends javax.swing.JPanel {
         bSemua = new javax.swing.JButton();
         bDiproses = new javax.swing.JButton();
         bSelesai = new javax.swing.JButton();
-        jTextField1 = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         tbPesanan = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
@@ -154,9 +156,7 @@ public class panelPesanan extends javax.swing.JPanel {
                         .addComponent(bDiproses)
                         .addGap(18, 18, 18)
                         .addComponent(bSelesai)
-                        .addGap(286, 286, 286)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(33, 33, 33)))
+                        .addGap(512, 512, 512)))
                 .addContainerGap(143, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -168,11 +168,10 @@ public class panelPesanan extends javax.swing.JPanel {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(bSemua)
                     .addComponent(bDiproses)
-                    .addComponent(bSelesai)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(50, 50, 50)
+                    .addComponent(bSelesai))
+                .addGap(55, 55, 55)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 333, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(234, Short.MAX_VALUE))
+                .addContainerGap(239, Short.MAX_VALUE))
         );
 
         add(jPanel1);
@@ -296,7 +295,6 @@ public class panelPesanan extends javax.swing.JPanel {
         content.add(detailPanel);
         content.repaint();
         content.revalidate();
-
     }//GEN-LAST:event_tbPesananMouseClicked
 
 
@@ -307,7 +305,6 @@ public class panelPesanan extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField jTextField1;
     private javax.swing.JTable tbPesanan;
     // End of variables declaration//GEN-END:variables
 }

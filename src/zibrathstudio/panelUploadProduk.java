@@ -40,7 +40,7 @@ public class panelUploadProduk extends javax.swing.JPanel {
         tHarga = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         tDesc = new javax.swing.JTextArea();
-        jButton1 = new javax.swing.JButton();
+        btnSelesai = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 0, 0));
@@ -67,17 +67,17 @@ public class panelUploadProduk extends javax.swing.JPanel {
         tDesc.setRows(5);
         jScrollPane1.setViewportView(tDesc);
 
-        jButton1.setBackground(new java.awt.Color(255, 102, 0));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Selesai");
-        jButton1.setBorderPainted(false);
-        jButton1.setFocusPainted(false);
-        jButton1.setFocusable(false);
-        jButton1.setOpaque(true);
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnSelesai.setBackground(new java.awt.Color(255, 102, 0));
+        btnSelesai.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnSelesai.setForeground(new java.awt.Color(255, 255, 255));
+        btnSelesai.setText("Selesai");
+        btnSelesai.setBorderPainted(false);
+        btnSelesai.setFocusPainted(false);
+        btnSelesai.setFocusable(false);
+        btnSelesai.setOpaque(true);
+        btnSelesai.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnSelesaiActionPerformed(evt);
             }
         });
 
@@ -106,7 +106,7 @@ public class panelUploadProduk extends javax.swing.JPanel {
                 .addContainerGap(45, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnSelesai, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(63, 63, 63))
         );
         jPanel1Layout.setVerticalGroup(
@@ -127,7 +127,7 @@ public class panelUploadProduk extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnSelesai, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(46, Short.MAX_VALUE))
         );
 
@@ -159,7 +159,7 @@ public class panelUploadProduk extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnSelesaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSelesaiActionPerformed
        String nama = tNamaProd.getText();
        double harga = Double.parseDouble(tHarga.getText());
        String desc = tDesc.getText();
@@ -179,11 +179,11 @@ public class panelUploadProduk extends javax.swing.JPanel {
         } catch (SQLException sQLException) {
             System.out.println(sQLException);
         }        
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btnSelesaiActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnSelesai;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
